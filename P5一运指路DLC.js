@@ -83,7 +83,7 @@ function faceClassification(face, eps=0.01) {
   if ((-eps < (face+6.28)) &&  ((face+6.28) < eps)) {
     return -6.28;
   }
-  return face;
+  return 0;
 }
 
 async function  setFace (face, delay, during) {
